@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <form id="form">
+            <h1>Ariza qoldiring</h1>
+            <div class="input-group">
+                <div class="input">
+                    <label for="name">Ism</label>
+                    <input id="name" type="text" placeholder="Ism" name="Ism">
+                </div>
+                <div class="input">
+                    <label for="surname">Familiya</label>
+                    <input id="surname" type="text" placeholder="Familiya" name="Familiya">
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input">
+                    <label for="date">Tug'ilgan sana</label>
+                    <input id="date" type="date" placeholder="Tug'ilgan sana" name="Tug'ilgan sana">
+                </div>
+                <div class="input">
+                    <label for="number">Telefon raqam</label>
+                    <input id="number" type="number" placeholder="Telefon raqam" name="Telefon raqam">
+                </div>
+            </div>
+            <div class="input-group-gender">
+                <span>Jins:</span>
+                <input name="Jins" id="erkak" type="radio" value="Erkak"> <label for="erkak">Erkak</label>
+                <input style="margin-left: 50px;" name="Jins" id="ayol" type="radio" value="Ayol"> <label
+                    for="ayol">Ayol</label>
+            </div>
+            <div class="input-group-text">
+                <label for="habar">Habar yozing:</label>
+                <textarea id="habar" name="Matn" rows="5"></textarea>
+            </div>
+            <button type="submit">Jo'natish</button>
+        </form>
+    </div>
+
 
 
     <script src="script.js"></script>
 </body>
+
 </html>

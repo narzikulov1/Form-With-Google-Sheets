@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #7986BF;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#form {
+    width: 600px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-group .input label {
+    display: block;
+}
+
+.input {
+    width: 100%;
+}
+
+.input input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CFB29C;
+}
+
+.input-group-gender span {
+    display: block;
+    margin-top: 15px;
+}
+
+.input-group-text label {
+    display: block;
+    margin-top: 15px;
+}
+
+.input-group-text textarea {
+    width: 100%;
+    border: 1px solid #CFB29C;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #6F82B4;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
